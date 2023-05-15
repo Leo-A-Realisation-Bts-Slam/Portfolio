@@ -1,0 +1,269 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 25px !important;
+}
+
+h3 {
+    font-size: 25px !important;
+}
+
+h4 {
+    font-size: 20px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+#topHeader a {
+    color: #fff;
+}
+
+#footer {
+    line-height: 16px !important;
+    background-color: #F0F4C3;
+}
+
+#footer a,
+#content a {
+    color: #393939;
+}
+
+#footer .bi,
+#content .bi {
+    font-size: 56px;
+}
+
+#footer .bi:hover,
+#content .bi:hover {
+    color: #17a2b8;
+    transition: .5s;
+}
+
+.couleurheader {
+    background-color: #084e2583;
+}
+
+#cta p {
+    font-size: 35px;
+}
+
+#parcours {
+    background-image: url('../img/fondCV.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.py-15 {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#projets.modal-footer {
+    flex-wrap: nowrap;
+}
+
+#content img {
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.45);
+}
+
+.empty {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+#logoveille  {
+    background-image: url('../img/gieger.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+#banniereVT {
+    background-image: url('../img/doigtdeDieu.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#banniereProjet {
+    background-image: url('../img/banniereprojets.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#banniereIndex {
+  background-image: url('../img/glitch.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#menu {
+    background-image: url('../img/');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#fondcontact {
+    background-image: url('../img/plaine.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#infocontact i {
+    font-size: 33px;
+}
+
+#infocontact a {
+    font-size: 22px;
+    color: #cc1818;
+}
+
+.lien_cv {
+    padding-left: 600px;
+}
+.valo {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-flow: column;
+            font-family: "Muli";
+  }
+  .valo a {
+    width: 100%;
+    max-width: 240px;
+  
+    padding: 8px;
+    font-size: 0.8rem;
+    font-weight: 900;
+    color: #16c010;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 0 0 0 1px inset #3be619;
+    position: relative;
+    margin: 10px 0;
+  }
+  .valo a.white:hover > p {
+    color: #ece8e1;
+  }
+  .valo a.white > p {
+    background: #ece8e1;
+    color: white;
+  }
+  .valo a.white > p span.base {
+    border: 1px solid transparent;
+  }
+  .valo a.transparent:hover > p {
+    color: #ece8e1;
+  }
+  .valo a.transparent:hover > p span.text {
+    box-shadow: 0 0 0 1px #ece8e1;
+  }
+  .valo a.transparent > p {
+    background: white;
+    color: #ece8e1;
+  }
+  .valo a.transparent > p span.base {
+    border: 1px solid #ece8e1;
+  }
+  .valo a:after, .valo a:before {
+    content: "";
+    width: 1px;
+    position: absolute;
+    height: 8px;
+    background: white;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  .valo a:before {
+    right: 0;
+    left: initial;
+  }
+  .valo a p {
+    margin: 0;
+    height: 54px;
+    line-height: 54px;
+    box-sizing: border-box;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .valo a p span.base {
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    border: 1px solid #56c010;
+  }
+  .valo a p span.base:before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    left: -1px;
+    top: -1px;
+    background: white;
+    position: absolute;
+    -webkit-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+  }
+  .valo a p span.bg {
+    left: -5%;
+    position: absolute;
+    background: #18d450;
+    width: 0;
+    height: 100%;
+    z-index: 3;
+    -webkit-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+  }
+  .valo a p span.text {
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .valo a p span.text:after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    right: 0;
+    bottom: 0;
+    background: white;
+    position: absolute;
+    -webkit-transition: 0.3s ease-out all;
+    transition: 0.3s ease-out all;
+    z-index: 5;
+  }
+  .valo a:hover {
+    color: #ece8e1;
+  }
+  .valo a:hover span.bg {
+    width: 110%;
+  }
+  .valo a:hover span.text:after {
+    background: #ece8e1;
+  }
